@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: seashell;
+}
+.header {
+  height: 64px;
+  background: antiquewhite;
+}
+.chat-room {
+  flex: 1;
+  overflow: scroll;
+  background: cornflowerblue;
+}
+.chat-send {
+  height: 100px;
+  background: coral;
+  justify-content: space-between;
+}
+.chat-item {
+  height: 30px;
+}
